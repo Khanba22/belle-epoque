@@ -1,0 +1,45 @@
+.slider{
+    height: 20vh;   
+    width: 100vw;
+}
+
+.slidetrack,.slidetrackRev{
+    height: 50vh;
+    margin: 2rem;
+}
+
+.partnerHeading{
+    color: var(--beige);
+    font-size: 5rem;
+    margin: 2rem 1rem;
+}
+
+.mainContainer .container img {
+    height: 90px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width:650px) {
+    .partnerHeading{
+        color: var(--beige);
+        font-size: 3rem;
+        margin: 2rem 1rem;
+    }
+}
+
+
+.floatingText{
+    height: 40vh;
+    width: 100vw;
+}
+
+.floatingText h1{
+    color: var(--beige);
+    text-align: center;
+    font-size: 6vw;
+}
